@@ -1,33 +1,13 @@
 {
-  "name": "backend",
+  "name": "web-nfc-demo",
   "version": "1.0.0",
-  "main": "db.js",
   "type": "module",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "keywords": [],
   "dependencies": {
-    "@simplewebauthn/server": "^10.0.1",
-    "base64url": "^3.0.1",
-    "bcrypt": "^6.0.0",
-    "bcryptjs": "^3.0.2",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "dotenv": "^16.6.1",
-    "express": "^5.1.0",
-    "mongodb": "^6.17.0",
-    "mongoose": "^8.16.2",
-    "multer": "^2.0.1",
-    "nfc-pcsc": "^0.8.1",
-    "node-cache": "^5.1.2",
-    "node-cron": "^4.2.1",
-    "nodemailer": "^7.0.5",
-    "pdf-lib": "^1.17.1",
-    "qpdf": "^0.1.0-prealpha.1"
-  },
-  "description": ""
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
 }
